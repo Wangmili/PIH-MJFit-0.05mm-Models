@@ -1,0 +1,83 @@
+{
+  "clearance_mm": 0.05,
+  "shapes": [
+    {
+      "shape": "circle",
+      "clearance_mm": 0.05,
+      "bore_w_mm": 35.01,
+      "bore_h_mm": 35.01,
+      "peg_w_mm": 34.91,
+      "peg_h_mm": 34.91,
+      "bore_verts": 132,
+      "peg_verts": 132,
+      "plate_col_objs": 132,
+      "peg_col_objs": 1,
+      "symmetry": 0
+    },
+    {
+      "shape": "square",
+      "clearance_mm": 0.05,
+      "bore_w_mm": 35.0,
+      "bore_h_mm": 35.0,
+      "peg_w_mm": 34.9,
+      "peg_h_mm": 34.9,
+      "bore_verts": 4,
+      "peg_verts": 4,
+      "plate_col_objs": 4,
+      "peg_col_objs": 1,
+      "symmetry": 4
+    },
+    {
+      "shape": "hexagon",
+      "clearance_mm": 0.05,
+      "bore_w_mm": 35.0,
+      "bore_h_mm": 40.415,
+      "peg_w_mm": 34.9,
+      "peg_h_mm": 40.299,
+      "bore_verts": 6,
+      "peg_verts": 6,
+      "plate_col_objs": 6,
+      "peg_col_objs": 1,
+      "symmetry": 6
+    },
+    {
+      "shape": "rectangle",
+      "clearance_mm": 0.05,
+      "bore_w_mm": 35.0,
+      "bore_h_mm": 24.5,
+      "peg_w_mm": 34.9,
+      "peg_h_mm": 24.4,
+      "bore_verts": 4,
+      "peg_verts": 4,
+      "plate_col_objs": 4,
+      "peg_col_objs": 1,
+      "symmetry": 2
+    },
+    {
+      "shape": "stadium",
+      "clearance_mm": 0.05,
+      "bore_w_mm": 35.01,
+      "bore_h_mm": 22.75,
+      "peg_w_mm": 34.91,
+      "peg_h_mm": 22.65,
+      "bore_verts": 106,
+      "peg_verts": 106,
+      "plate_col_objs": 106,
+      "peg_col_objs": 1,
+      "symmetry": 2
+    },
+    {
+      "shape": "d",
+      "clearance_mm": 0.05,
+      "bore_w_mm": 25.205,
+      "bore_h_mm": 35.01,
+      "peg_w_mm": 25.105,
+      "peg_h_mm": 34.91,
+      "bore_verts": 87,
+      "peg_verts": 87,
+      "plate_col_objs": 87,
+      "peg_col_objs": 1,
+      "symmetry": 1
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+<mujoco model="peg_in_hole">
+  <compiler meshdir="meshes" />
+  <option timestep="0.001" integrator="implicitfast" />
+  <default>
+    <default class="mjfit">
+      <geom solref="0.002 1.0" solimp="0.99 0.999 0.001 0.5 2.0" condim="4" friction="0.45 0.01 0.001" />
+      <default class="mjfit_visual">
+        <geom group="2" contype="0" conaffinity="0" density="0" />
+      </default>
+      <default class="mjfit_collision">
+        <geom group="3" />
+      </default>
+    </default>
+  </default>
+  <asset>
+    <mesh name="plate_visual" file="plate_visual.obj" />
+    <mesh name="plate_0" file="plate_0.obj" />
+    <mesh name="plate_1" file="plate_1.obj" />
+    <mesh name="plate_2" file="plate_2.obj" />
+    <mesh name="plate_3" file="plate_3.obj" />
+    <mesh name="plate_4" file="plate_4.obj" />
+    <mesh name="plate_5" file="plate_5.obj" />
+    <mesh name="plate_6" file="plate_6.obj" />
+    <mesh name="plate_7" file="plate_7.obj" />
+    <mesh name="plate_8" file="plate_8.obj" />
+    <mesh name="plate_9" file="plate_9.obj" />
+    <mesh name="plate_10" file="plate_10.obj" />
+    <mesh name="plate_11" file="plate_11.obj" />
+    <mesh name="plate_12" file="plate_12.obj" />
+    <mesh name="plate_13" file="plate_13.obj" />
+    <mesh name="plate_14" file="plate_14.obj" />
+    <mesh name="plate_15" file="plate_15.obj" />
+    <mesh name="plate_16" file="plate_16.obj" />
+    <mesh name="plate_17" file="plate_17.obj" />
+    <mesh name="plate_18" file="plate_18.obj" />
+    <mesh name="plate_19" file="plate_19.obj" />
+    <mesh name="plate_20" file="plate_20.obj" />
+    <mesh name="plate_21" file="plate_21.obj" />
+    <mesh name="plate_22" file="plate_22.obj" />
+    <mesh name="plate_23" file="plate_23.obj" />
+    <mesh name="plate_24" file="plate_24.obj" />
+    <mesh name="plate_25" file="plate_25.obj" />
+    <mesh name="plate_26" file="plate_26.obj" />
+    <mesh name="plate_27" file="plate_27.obj" />
+    <mesh name="plate_28" file="plate_28.obj" />
+    <mesh name="plate_29" file="plate_29.obj" />
+    <mesh name="plate_30" file="plate_30.obj" />
+    <mesh name="plate_31" file="plate_31.obj" />
+    <mesh name="plate_32" file="plate_32.obj" />
+    <mesh name="plate_33" file="plate_33.obj" />
+    <mesh name="plate_34" file="plate_34.obj" />
+    <mesh name="plate_35" file="plate_35.obj" />
+    <mesh name="plate_36" file="plate_36.obj" />
+    <mesh name="plate_37" file="plate_37.obj" />
+    <mesh name="plate_38" file="plate_38.obj" />
+    <mesh name="plate_39" file="plate_39.obj" />
+    <mesh name="plate_40" file="plate_40.obj" />
+    <mesh name="plate_41" file="plate_41.obj" />
+    <mesh name="plate_42" file="plate_42.obj" />
+    <mesh name="plate_43" file="plate_43.obj" />
+    <mesh name="plate_44" file="plate_44.obj" />
+    <mesh name="plate_45" file="plate_45.obj" />
+    <mesh name="plate_46" file="plate_46.obj" />
+    <mesh name="plate_47" file="plate_47.obj" />
+    <mesh name="plate_48" file="plate_48.obj" />
+    <mesh name="plate_49" file="plate_49.obj" />
+    <mesh name="plate_50" file="plate_50.obj" />
+    <mesh name="plate_51" file="plate_51.obj" />
+    <mesh name="plate_52" file="plate_52.obj" />
+    <mesh name="plate_53" file="plate_53.obj" />
+    <mesh name="plate_54" file="plate_54.obj" />
+    <mesh name="plate_55" file="plate_55.obj" />
+    <mesh name="plate_56" file="plate_56.obj" />
+    <mesh name="plate_57" file="plate_57.obj" />
+    <mesh name="plate_58" file="plate_58.obj" />
+    <mesh name="plate_59" file="plate_59.obj" />
+    <mesh name="plate_60" file="plate_60.obj" />
+    <mesh name="plate_61" file="plate_61.obj" />
+    <mesh name="plate_62" file="plate_62.obj" />
+    <mesh name="plate_63" file="plate_63.obj" />
+    <mesh name="plate_64" file="plate_64.obj" />
+    <mesh name="plate_65" file="plate_65.obj" />
+    <mesh name="plate_66" file="plate_66.obj" />
+    <mesh name="plate_67" file="plate_67.obj" />
+    <mesh name="plate_68" file="plate_68.obj" />
+    <mesh name="plate_69" file="plate_69.obj" />
+    <mesh name="plate_70" file="plate_70.obj" />
+    <mesh name="plate_71" file="plate_71.obj" />
+    <mesh name="plate_72" file="plate_72.obj" />
+    <mesh name="plate_73" file="plate_73.obj" />
+    <mesh name="plate_74" file="plate_74.obj" />
+    <mesh name="plate_75" file="plate_75.obj" />
+    <mesh name="plate_76" file="plate_76.obj" />
+    <mesh name="plate_77" file="plate_77.obj" />
+    <mesh name="plate_78" file="plate_78.obj" />
+    <mesh name="plate_79" file="plate_79.obj" />
+    <mesh name="plate_80" file="plate_80.obj" />
+    <mesh name="plate_81" file="plate_81.obj" />
+    <mesh name="plate_82" file="plate_82.obj" />
+    <mesh name="plate_83" file="plate_83.obj" />
+    <mesh name="plate_84" file="plate_84.obj" />
+    <mesh name="plate_85" file="plate_85.obj" />
+    <mesh name="plate_86" file="plate_86.obj" />
+    <mesh name="peg_visual" file="peg_visual.obj" />
+    <mesh name="peg_0" file="peg_0.obj" />
+  </asset>
+  <worldbody>
+    <light pos="0.3 0.3 1.2" dir="-0.23570226039551584 -0.23570226039551584 -0.9428090415820634" diffuse="0.8 0.8 0.8" />
+    <geom name="floor" type="plane" class="mjfit" size="1.0 1.0 0.01" rgba="0.92 0.92 0.92 1" />
+    <body name="plate" childclass="mjfit" pos="0.0 0.0 0.02">
+      <geom type="mesh" class="mjfit_visual" rgba="0.70 0.75 0.82 1" mesh="plate_visual" />
+      <geom name="plate_0" type="mesh" mesh="plate_0" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_1" type="mesh" mesh="plate_1" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_2" type="mesh" mesh="plate_2" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_3" type="mesh" mesh="plate_3" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_4" type="mesh" mesh="plate_4" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_5" type="mesh" mesh="plate_5" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_6" type="mesh" mesh="plate_6" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_7" type="mesh" mesh="plate_7" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_8" type="mesh" mesh="plate_8" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_9" type="mesh" mesh="plate_9" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_10" type="mesh" mesh="plate_10" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_11" type="mesh" mesh="plate_11" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_12" type="mesh" mesh="plate_12" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_13" type="mesh" mesh="plate_13" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_14" type="mesh" mesh="plate_14" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_15" type="mesh" mesh="plate_15" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_16" type="mesh" mesh="plate_16" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_17" type="mesh" mesh="plate_17" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_18" type="mesh" mesh="plate_18" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_19" type="mesh" mesh="plate_19" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_20" type="mesh" mesh="plate_20" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_21" type="mesh" mesh="plate_21" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_22" type="mesh" mesh="plate_22" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_23" type="mesh" mesh="plate_23" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_24" type="mesh" mesh="plate_24" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_25" type="mesh" mesh="plate_25" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_26" type="mesh" mesh="plate_26" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_27" type="mesh" mesh="plate_27" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_28" type="mesh" mesh="plate_28" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_29" type="mesh" mesh="plate_29" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_30" type="mesh" mesh="plate_30" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_31" type="mesh" mesh="plate_31" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_32" type="mesh" mesh="plate_32" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_33" type="mesh" mesh="plate_33" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_34" type="mesh" mesh="plate_34" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_35" type="mesh" mesh="plate_35" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_36" type="mesh" mesh="plate_36" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_37" type="mesh" mesh="plate_37" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_38" type="mesh" mesh="plate_38" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_39" type="mesh" mesh="plate_39" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_40" type="mesh" mesh="plate_40" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_41" type="mesh" mesh="plate_41" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_42" type="mesh" mesh="plate_42" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_43" type="mesh" mesh="plate_43" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_44" type="mesh" mesh="plate_44" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_45" type="mesh" mesh="plate_45" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_46" type="mesh" mesh="plate_46" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_47" type="mesh" mesh="plate_47" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_48" type="mesh" mesh="plate_48" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_49" type="mesh" mesh="plate_49" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_50" type="mesh" mesh="plate_50" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_51" type="mesh" mesh="plate_51" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_52" type="mesh" mesh="plate_52" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_53" type="mesh" mesh="plate_53" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_54" type="mesh" mesh="plate_54" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_55" type="mesh" mesh="plate_55" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_56" type="mesh" mesh="plate_56" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_57" type="mesh" mesh="plate_57" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_58" type="mesh" mesh="plate_58" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_59" type="mesh" mesh="plate_59" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_60" type="mesh" mesh="plate_60" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_61" type="mesh" mesh="plate_61" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_62" type="mesh" mesh="plate_62" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_63" type="mesh" mesh="plate_63" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_64" type="mesh" mesh="plate_64" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_65" type="mesh" mesh="plate_65" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_66" type="mesh" mesh="plate_66" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_67" type="mesh" mesh="plate_67" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_68" type="mesh" mesh="plate_68" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_69" type="mesh" mesh="plate_69" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_70" type="mesh" mesh="plate_70" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_71" type="mesh" mesh="plate_71" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_72" type="mesh" mesh="plate_72" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_73" type="mesh" mesh="plate_73" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_74" type="mesh" mesh="plate_74" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_75" type="mesh" mesh="plate_75" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_76" type="mesh" mesh="plate_76" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_77" type="mesh" mesh="plate_77" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_78" type="mesh" mesh="plate_78" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_79" type="mesh" mesh="plate_79" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_80" type="mesh" mesh="plate_80" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_81" type="mesh" mesh="plate_81" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_82" type="mesh" mesh="plate_82" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_83" type="mesh" mesh="plate_83" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_84" type="mesh" mesh="plate_84" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_85" type="mesh" mesh="plate_85" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_86" type="mesh" mesh="plate_86" class="mjfit_collision" density="1000.0" />
+      <site name="bore_mouth" pos="0 0 0.02" size="0.0008" rgba="1 0.25 0.5 0.8" />
+    </body>
+    <body name="peg" childclass="mjfit" pos="0.0 0.0 0.07">
+      <freejoint name="peg_joint" />
+      <geom type="mesh" class="mjfit_visual" rgba="0.90 0.30 0.30 1" mesh="peg_visual" />
+      <geom name="peg_0" type="mesh" mesh="peg_0" class="mjfit_collision" density="1000.0" />
+      <site name="peg_tip" pos="0 0 -0.025" size="0.0008" rgba="0.1 0.8 1 1" />
+    </body>
+  </worldbody>
+</mujoco>

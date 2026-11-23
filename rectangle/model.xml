@@ -1,0 +1,42 @@
+<mujoco model="peg_in_hole">
+  <compiler meshdir="meshes" />
+  <option timestep="0.001" integrator="implicitfast" />
+  <default>
+    <default class="mjfit">
+      <geom solref="0.002 1.0" solimp="0.99 0.999 0.001 0.5 2.0" condim="4" friction="0.45 0.01 0.001" />
+      <default class="mjfit_visual">
+        <geom group="2" contype="0" conaffinity="0" density="0" />
+      </default>
+      <default class="mjfit_collision">
+        <geom group="3" />
+      </default>
+    </default>
+  </default>
+  <asset>
+    <mesh name="plate_visual" file="plate_visual.obj" />
+    <mesh name="plate_0" file="plate_0.obj" />
+    <mesh name="plate_1" file="plate_1.obj" />
+    <mesh name="plate_2" file="plate_2.obj" />
+    <mesh name="plate_3" file="plate_3.obj" />
+    <mesh name="peg_visual" file="peg_visual.obj" />
+    <mesh name="peg_0" file="peg_0.obj" />
+  </asset>
+  <worldbody>
+    <light pos="0.3 0.3 1.2" dir="-0.23570226039551584 -0.23570226039551584 -0.9428090415820634" diffuse="0.8 0.8 0.8" />
+    <geom name="floor" type="plane" class="mjfit" size="1.0 1.0 0.01" rgba="0.92 0.92 0.92 1" />
+    <body name="plate" childclass="mjfit" pos="0.0 0.0 0.02">
+      <geom type="mesh" class="mjfit_visual" rgba="0.70 0.75 0.82 1" mesh="plate_visual" />
+      <geom name="plate_0" type="mesh" mesh="plate_0" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_1" type="mesh" mesh="plate_1" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_2" type="mesh" mesh="plate_2" class="mjfit_collision" density="1000.0" />
+      <geom name="plate_3" type="mesh" mesh="plate_3" class="mjfit_collision" density="1000.0" />
+      <site name="bore_mouth" pos="0 0 0.02" size="0.0008" rgba="1 0.25 0.5 0.8" />
+    </body>
+    <body name="peg" childclass="mjfit" pos="0.0 0.0 0.07">
+      <freejoint name="peg_joint" />
+      <geom type="mesh" class="mjfit_visual" rgba="0.90 0.30 0.30 1" mesh="peg_visual" />
+      <geom name="peg_0" type="mesh" mesh="peg_0" class="mjfit_collision" density="1000.0" />
+      <site name="peg_tip" pos="0 0 -0.025" size="0.0008" rgba="0.1 0.8 1 1" />
+    </body>
+  </worldbody>
+</mujoco>
